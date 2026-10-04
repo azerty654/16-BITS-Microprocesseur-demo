@@ -8,7 +8,7 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en pytho
 - Unité de commande programmable composée de deux ROM (Instructions ROM, Data ROM) et d’un compteur intégré pour défiler les instructions à chaque tic d’horloge
 - Circuits logiques (décodeur, convertisseur…) 
 # Programme d'assembleur
-- Dispose d’un jeu d'instructions (ADD, SUB, MULT, DIV, AND, NAND, OR, NOR, XOR, XNOR, NOT, JUMP, JPOS, JNEG, JZ)
+- Dispose d’un jeu d'instructions (ADD, SUB, MULT, DIV, AND, NAND, OR, NOR, XOR, XNOR, NOT, MOVE, WRITE, JUMP, JPOS, JNEG, JZ)
 - Génère deux fichiers en .txt (data.txt et instructions.txt) qui devront être chargés dans les deux ROM de l'unité de contrôle
 - Codé en python 3.14.0
 # Comment ça marche 
