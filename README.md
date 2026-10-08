@@ -29,6 +29,6 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en pytho
 
 * Toutes les données (data) circulent dans un seul BUS de données de 8 bits commun a tout les composants
 
-![bus](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/Bus%20pic.png?raw=true)
+![bus](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/Bus.png?raw=true)
 
 
