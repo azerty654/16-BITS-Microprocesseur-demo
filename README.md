@@ -31,4 +31,10 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en pytho
 
 ![bus](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/bus.png?raw=true)
 
+# Micro-instructions 
+Comme dit précédemment, chaque instructions du programme est composée de micro-instructions de 15 bits chacune, leur nombre peut varier d'une instruction à l'autre (par exemple, l'instruction MOVE comporte 6 micro-instructions tandis que l'instruction WRITE n'en comporte que 3) quand l'instruction comporte moins de 8 micro-instructions, le reste des blocs non utilisé sont automatiquement remplis par des 0 jusqu'à combler le reste.
+**Répartition des Bits d'instruction** → Ces bits sont arrangés ainsi (du LSB au MSB) : 
+
+
+
 
