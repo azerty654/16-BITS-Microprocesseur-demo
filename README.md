@@ -44,13 +44,13 @@ Comme dit précédemment, chaque instructions du programme est composée de micr
 * ``BIT 13 au BIT 14 (2 bits)`` → sélection de l'opération du **sous-registre Work** (Work_Write → 01, Work_Read → 10, Work_Clear → 11)
 
 **Adresse binaire des registres** → 
-* Registre 1 → 001
-* Registre 2 → 010
-* Registre 3 → 011
-* Registre 4 → 100
-* Registre 5 → 101
-* Registre 6 → 110
-* Registre 7 → 111
+* ``Registre 1`` → **001**
+* ``Registre 2`` → **010**
+* ``Registre 3`` → **011**
+* ``Registre 4`` → **100**
+* ``Registre 5`` → **101**
+* ``Registre 6`` → **110**
+* ``Registre 7`` → **111**
 
 
 
