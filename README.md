@@ -23,4 +23,6 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en pytho
 
 ![UC](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/CU.png?raw=true)
 
+* L'Unité de contrôle dispose de deux sorties principales, la premiere est la sortie **CU_Instruction** qui se chargera de piloter les registres, les sous-registres et L'ALU et principalement leurs permissions de lecture et d'écriture. La deuxième est la sortie **value** qui se chargera de transmettre les données au BUS principale du microprocesseur au bon moment en étant synchronisé avec les instructions en cours d’exécution.
+
 
