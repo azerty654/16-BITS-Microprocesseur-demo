@@ -62,7 +62,7 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 * `Registre 6` → **110**
 * `Registre 7` → **111**
 
-**Code binaire des opérations** → chaque code binaire correspond à l'une des différentes opérations
+**Code binaire des opérations de l'ALU** → chaque code binaire correspond à l'une des différentes opérations codée en 4 bits envoyée à l'ALU
 - ``ADD`` → **0001**
 - ``SUB`` → **0010**
 - ``MULT`` → **0011**
@@ -74,10 +74,3 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 - ``XOR`` → **1001**
 - ``XNOR`` → **1010**
 - ``NOT`` → **1011**
-- ``JUMP`` → **1101**
-- ``JPOS`` → **1110**
-- ``JNEG`` → **1111**
-
-**IMPORTANT**
-
-Les opérations `WRITE`, `MOVE` et `CLEAR` ne font pas partie de cette liste, donc elles ne sont pas représentées sur les 4 bits de l'OPCODE, elles sont représentées respectivement par 3, 6 et 1 blocs d'instructions. D'ailleurs, les commandes qui font appel à l'ALU sont exécutées sur les mêmes 6 micro-instructions, il n'y a que **l'OPCODE** qui change selon l'instruction appelée.
