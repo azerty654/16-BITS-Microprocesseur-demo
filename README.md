@@ -37,11 +37,11 @@ Comme dit précédemment, chaque instructions du programme est composée de micr
 **Répartition des Bits d'instruction** → Ces bits sont arrangés ainsi (du LSB au MSB) :
 * ``BIT 0 (1 bit)`` → autorisation de lecture des données du port **value** de l'unité de contrôle
 * ``BIT 1 (1 bit)`` → autorisation de lecture des données du port **ALU_Result** de l'ALU
-* ``BIT 2 au BIT 5 (4 bits)`` → code binaire de l'opération/instruction (opcode)
+* ``BIT 2 au BIT 5 (4 bits)`` → code binaire de l'opération/instruction (**opcode**)
 * ``BIT 6 au BIT 8 (3 bits)`` → sélection de l'un des sept registres principaux de 1 (001) à 7 (111)
-* ``BIT 9 au BIT 10 (2 bits)`` →
-* ``BIT 11 au BIT 12 (2 bits)`` →
-* ``BIT 13 au BIT 14 (2 bits)`` →
+* ``BIT 9 au BIT 10 (2 bits)`` → autorisation d'écriture des sous-registres AB de l'ALU
+* ``BIT 11 au BIT 12 (2 bits)`` → sélection de l'opération des registres principaux (Reg_Write → 01, Reg_Read → 10, Reg_Clear → 11)
+* ``BIT 13 au BIT 14 (2 bits)`` → sélection de l'opération du sous-registre **Work** (Work_Write → 01, Work_Read → 10, Work_Clear → 11)
 
 
 
