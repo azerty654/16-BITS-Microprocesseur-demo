@@ -27,8 +27,8 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en pytho
 
 ![inst](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/15%20bits%20instructions.png?raw=true)
 
-* Toutes les données (data) circulent dans un seul BUS de données de 8 bits commun a tout les composants
+* Toutes les données circulent dans un seul **BUS de données de 8 bits**, commun à tous les composants. Entre autres, l’ALU, les registres, les sous-registres, etc. partagent la même entrée et la même sortie de données. C’est ici que l’Unité de contrôle est indispensable pour commander ces différents composants, notamment en choisissant **qui lit et écrit les données du BUS, ou qui injecte ses données dans le BUS** tout en synchronisant le tout ensemble 
 
-![bus](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/Bus.png?raw=true)
+![bus](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/bus.png?raw=true)
 
 
