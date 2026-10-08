@@ -16,6 +16,8 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en pytho
 # Comment ça marche 
 Partie assembleur -> après avoir écrit le script dans le fichier ”programme.txt”, on exécute le code de l’assembleur en python, le programme se charge de décoder et de modifier en temps réel les données en hexadécimal dans deux fichiers distincts : le fichier ”instructions.txt” contenant les micro-instructions en 15 bits qui seront chargé dans la ROM principale de l’unité de contrôle, et le fichier ”data.txt” contenant toutes les valeurs codés en 8 bits (de 0 à 255 maximum) qui seront chargés dans la ROM secondaire dédié à la mémoire de l’unité de contrôle 
 
-![architecture du microprocesseur](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/fichiers_assambleur%20pic.png?raw=true) 
+![architecture du microprocesseur](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/fichiers_assambleur%20pic.png?raw=true)
+
+Partie Microprocesseur -> après avoir chargé les deux fichiers générés par l'assembleur dans la ROM des instructions et la ROM des données, on met en marche l'horloge interne du système qui activera en premier temps le compteur intégré dans l'unité de contrôle relié aux addresses mémoires des roms (entre autre, cela permettra de lire toutes les données stocké dans les addresses mémoire de 0 à 255 dans l'ordre). Chaque ligne du code du script (instructions) est stocké sur 8 blocs de chacun 1 octet dans la mémoire, ces blocs contiennent eux memes chacun une micro-instruction de 15 bits (j'ai fait ce choix de répartitions pour mieux gérer l’emplacement mémoire de chaque instructions et les séparer les unes des autres, indispensable notamment pour les instructions JUMP pour sauter entre les lignes du code)
 
   
