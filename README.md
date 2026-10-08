@@ -1,5 +1,5 @@
 # 8-BITS Microprocesseur
-Un mini-microprocesseur 8 bits que j’ai mis en place moi-même sous Logisim, avec une architecture conçue sur mesure, une UAL complète, plusieurs registres/sous registres et une unité de contrôle programmable (UC). Ce projet a surtout pour but de comprendre concrètement l'architecture d'un microprocesseur, comment ses différentes parties communiquent entre elles et comment un assembleur fait pour décomposer les instructions en code machine qui pilotera les différents composants du système.
+Un **mini-microprocesseur 8 bits** que j’ai mis en place moi-même sous **Logisim**, avec une architecture conçue sur mesure, une UAL complète, plusieurs registres/sous registres et une unité de contrôle programmable (UC). Ce projet a surtout pour but de comprendre concrètement **l'architecture d'un microprocesseur**, comment ses différentes parties communiquent entre elles et comment un assembleur fait pour décomposer les instructions en code machine qui pilotera les différents composants du système.
 Ce projet est composé en deux parties distinctes : l'assembleur écrit en python qui décompose et traduit le script écrit par l'utilisateur en micros instructions de 15 bits qui pourront être exécutées, et le microprocesseur qui interprète et exécute les instructions produites par l’assembleur.
 
 ![architecture du microprocesseur](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/architecture%20.png) 
@@ -29,6 +29,6 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en pytho
 
 * Toutes les données (data) circulent dans un seul BUS de données de 8 bits commun a tout les composants
 
-![]()
+![bus](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/Bus%20pic.png?raw=true)
 
 
