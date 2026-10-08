@@ -64,19 +64,19 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 
 **Code binaire des opérations** → chaque code binaire correspond à l'une des différentes opérations
 - ``ADD`` → **0001**
--``SUB`` → **0010**
--``MULT`` → **0011**
--``DIV`` → **0100**
--``AND`` → **0101**
--``NAND`` → **0110**
--``OR`` → **0111**
--``NOR`` → **1000**
--``XOR`` → **1001**
--``XNOR`` → **1010**
--``NOT`` → **1011**
--``JUMP`` → **1101**
--``JPOS`` → **1110**
--``JNEG`` → **1111**
+- ``SUB`` → **0010**
+- ``MULT`` → **0011**
+- ``DIV`` → **0100**
+- ``AND`` → **0101**
+- ``NAND`` → **0110**
+- ``OR`` → **0111**
+- ``NOR`` → **1000**
+- ``XOR`` → **1001**
+- ``XNOR`` → **1010**
+- ``NOT`` → **1011**
+- ``JUMP`` → **1101**
+- ``JPOS`` → **1110**
+- ``JNEG`` → **1111**
 
 **IMPORTANT**
 
