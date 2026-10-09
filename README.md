@@ -75,8 +75,14 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 - ``XNOR`` → **1010**
 - ``NOT`` → **1011**
 
-# Instructions 
+# Instructions de commande du microprocesseur
 - WRITE → sert à charger une valeur depuis le script, s'exécute en 3 micro-instructions (3 blocs de 15 bits)
-- MOVE → sert a déplacer une valeur stocké dans un registre à un autre, s'exécute en 6 micro-instructions (6 blocs de 15 bits)
+- MOVE → sert à déplacer une valeur stockée dans un registre vers un autre, s'exécute en 6 micro-instructions (6 blocs de 15 bits)
 
 ![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%201%20instructions%20carnet.jpeg?raw=true)
+
+- READ → sert à charger la valeur stockée dans un registre dans le bus de données, s'exécute en 6 micro-instructions (6 blocs de 15 bits)
+- CLEAR → sert a remettre à zéro un registre
+- OP (ADD,SUB,DIV... NOT) →
+  
+![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%202%20instructions%20carnet.jpeg?raw=true)
