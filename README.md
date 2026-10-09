@@ -16,7 +16,7 @@ Ce projet est composé de deux parties distinctes : l'assembleur écrit en Pytho
 
 # Programme d'assembleur
 
-* Dispose d’un jeu d'instructions (`ADD`, `SUB`, `MULT`, `DIV`, `AND`, `NAND`, `OR`, `NOR`, `XOR`, `XNOR`, `NOT`, `MOVE`, `WRITE`, `JUMP`, `JPOS`, `JNEG`, `JZ`)
+* Dispose d’un jeu d'instructions (`ADD`, `SUB`, `MULT`, `DIV`, `AND`, `NAND`, `OR`, `NOR`, `XOR`, `XNOR`, `NOT`, `MOVE`, `WRITE`, `JUMP`, `JPOS`, `JNEG`, `JZ`, ``READ``, ``CLEAR``, ``WAIT``)
 * Génère deux fichiers au format **.txt** (`data.txt` et `instructions.txt`) qui devront être chargés dans les deux ROM de l'unité de contrôle
 * Codé en **Python 3.14.0**
 
