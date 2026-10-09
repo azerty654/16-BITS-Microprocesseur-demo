@@ -76,6 +76,7 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 - ``NOT`` → **1011**
 
 # Instructions 
-- WRITE → s'exécute en 3 micro-instructions (3 blocs de 15 bits)
-- MOVE → s'exécute en 6 micro-instructions (3 blocs de 15 bits)
-- ![NOTES]()
+- WRITE → sert à charger une valeur depuis le script, s'exécute en 3 micro-instructions (3 blocs de 15 bits)
+- MOVE → sert a déplacer une valeur stocké dans un registre à un autre, s'exécute en 6 micro-instructions (6 blocs de 15 bits)
+
+![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%201%20instructions%20carnet.jpeg?raw=true)
