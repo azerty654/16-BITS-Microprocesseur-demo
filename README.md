@@ -78,7 +78,7 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 # Instructions de commande du microprocesseur
 - WRITE → sert à charger une valeur depuis le script, s'exécute en 3 micro-instructions 
 - MOVE → sert à déplacer une valeur stockée dans un registre vers un autre, s'exécute en 6 micro-instructions
-- WAIT → met le système en veille pendant 8 cycles d'horloge, cette instruction est différente des autres car elle fige le hardware en écrivant 8 blocs de la mémoire rom avec des 0
+- WAIT → met le système en veille pendant 8 cycles d'horloge, cette instruction est différente des autres car elle fige le hardware en remplissant 8 blocs de la mémoire ROM de zéros
 
 ![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%201%20instructions%20carnet.jpeg?raw=true)
 
