@@ -76,17 +76,20 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 - ``NOT`` → **1011**
 
 # Instructions de commande du microprocesseur
-- WRITE → sert à charger une valeur depuis le script, s'exécute en 3 micro-instructions 
-- MOVE → sert à déplacer une valeur stockée dans un registre vers un autre, s'exécute en 6 micro-instructions
-- WAIT → met le système en veille pendant 8 cycles d'horloge, cette instruction est différente des autres car elle fige le hardware en remplissant 8 blocs de la mémoire ROM de zéros
+- ``WRITE`` → sert à charger une valeur depuis le script, s'exécute en 3 micro-instructions 
+- ``MOVE`` → sert à déplacer une valeur stockée dans un registre vers un autre, s'exécute en 6 micro-instructions
+- ``WAIT`` → met le système en veille pendant 8 cycles d'horloge, cette instruction est différente des autres car elle fige le hardware en remplissant 8 blocs de la mémoire ROM de zéros
 
 ![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%201%20instructions%20carnet.jpeg?raw=true)
 
-- READ → sert à charger la valeur stockée dans un registre dans le bus de données, s'exécute en 6 micro-instructions 
-- CLEAR → sert à remettre à zéro un registre, s'exécute en une micro-instruction
-- OP (ADD,SUB,DIV... NOT) → sert à effectuer une opération arithmétique ou logique entre les valeurs stockées dans deux registres et la enregistrer le résultat dans un troisième, s'exécute en 6 micro-instructions
+- ``READ`` → sert à charger la valeur stockée dans un registre dans le bus de données, s'exécute en 6 micro-instructions 
+- ``CLEAR`` → sert à remettre à zéro un registre, s'exécute en une micro-instruction
+- ``OP`` (ADD,SUB,DIV... NOT) → sert à effectuer une opération arithmétique ou logique entre les valeurs stockées dans deux registres et la enregistrer le résultat dans un troisième, s'exécute en 6 micro-instructions
   
 ![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%202%20instructions%20carnet.jpeg?raw=true)
 
-# Instructions de sauts conditionnel et inconditionnelle 
+- ``JUMP`` → sert à sauter d'une instruction du script à une autre sans condition, s'exécute en une micro-instruction
+- ``JPOS`` → sert à sauter d'une instruction du script à une autre si le dernier résultat calculé par l'ALU est positif, s'exécute en une micro-instruction
+- ``JNEG`` → sert à sauter d'une instruction du script à une autre si le dernier résultat calculé par l'ALU est négatif, s'exécute en une micro-instruction
+- ``JZ`` → sert à sauter d'une instruction du script à une autre si le dernier résultat calculé par l'ALU est nul, s'exécute en une micro-instruction
 
