@@ -1,8 +1,8 @@
 # 8-BITS Microprocesseur
 
-Un **mini-microprocesseur 8 bits** que j’ai crée sous **Logisim**, avec une architecture conçue sur mesure, une UAL basique mais complète, plusieurs registres/sous-registres et une unité de contrôle programmable (UC). Ce projet a surtout pour but de comprendre concrètement **l'architecture d'un microprocesseur**, comment ses différentes parties communiquent entre elles et comment un assembleur fait pour décomposer les instructions en code machine qui pilotera les différents composants du système.
+Un **mini-microprocesseur 8 bits** que j’ai conçu sous **Logisim**, avec une architecture faite sur mesure, une UAL basique mais complète, plusieurs registres/sous-registres et une unité de contrôle programmable (UC). Ce projet a surtout pour but de comprendre concrètement **l'architecture d'un microprocesseur**, comment ses différentes parties communiquent entre elles et comment un assembleur fait pour décomposer les instructions en code machine qui pilotera les différents composants du système.
 
-Ce projet est composé en deux parties distinctes : l'assembleur écrit en Python qui décompose et traduit le script écrit par l'utilisateur en micro-instructions de 15 bits qui pourront être exécutées, et le microprocesseur qui interprète et exécute les instructions produites par l’assembleur.
+Ce projet est composé de deux parties distinctes : l'assembleur écrit en Python qui décompose et traduit le script écrit par l'utilisateur en micro-instructions de 15 bits qui pourront être exécutées, et le microprocesseur qui interprète et exécute les instructions produites par l’assembleur.
 
 ![architecture du microprocesseur](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/architecture%20.png)
 
@@ -11,7 +11,7 @@ Ce projet est composé en deux parties distinctes : l'assembleur écrit en Pytho
 * Dispose d'une unité arithmétique et logique (ALU) complète : addition, soustraction, multiplication, division, opérations logiques (AND, NAND, OR, NOR, XOR, XNOR, NOT) et registres d'état
 * Registres généraux adressables (7 registres principaux, 2 sous-registres dédiés à l'ALU, 1 registre d'état, 1 registre Work)
 * BUS de données
-* Unité de commande programmable composée de deux mémoires ROM (Instructions ROM, Data ROM) et d’un compteur intégré pour défiler les micro-instructions à chaque tic d’horloge
+* Unité de commande programmable composée de deux mémoires ROM (Instructions ROM, Data ROM) et d’un compteur intégré pour défiler les micro-instructions à chaque cycle d’horloge
 * Circuits logiques (décodeur, convertisseur…)
 
 # Programme d'assembleur
@@ -77,7 +77,8 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 
 # Instructions de commande du microprocesseur
 - WRITE → sert à charger une valeur depuis le script, s'exécute en 3 micro-instructions 
-- MOVE → sert à déplacer une valeur stockée dans un registre vers un autre, s'exécute en 6 micro-instructions 
+- MOVE → sert à déplacer une valeur stockée dans un registre vers un autre, s'exécute en 6 micro-instructions
+- WAIT → met le système en veille  le temps de 8 cycles d'horloge 
 
 ![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%201%20instructions%20carnet.jpeg?raw=true)
 
