@@ -83,7 +83,7 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 ![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%201%20instructions%20carnet.jpeg?raw=true)
 
 - READ → sert à charger la valeur stockée dans un registre dans le bus de données, s'exécute en 6 micro-instructions 
-- CLEAR → sert à remettre à zéro un registre, s'exécute en une micro-instructions 
+- CLEAR → sert à remettre à zéro un registre, s'exécute en une micro-instruction
 - OP (ADD,SUB,DIV... NOT) → sert à effectuer une opération arithmétique ou logique entre les valeurs stockées dans deux registres et la enregistrer le résultat dans un troisième, s'exécute en 6 micro-instructions
   
 ![NOTES](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/page%202%20instructions%20carnet.jpeg?raw=true)
