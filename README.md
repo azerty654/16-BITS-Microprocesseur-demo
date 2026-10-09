@@ -76,3 +76,6 @@ Comme dit précédemment, chaque instruction du programme est composée de micro
 - ``NOT`` → **1011**
 
 # Instructions 
+- WRITE → s'exécute en 3 micro-instructions (3 blocs de 15 bits)
+- MOVE → s'exécute en 6 micro-instructions (3 blocs de 15 bits)
+- ![NOTES]()
